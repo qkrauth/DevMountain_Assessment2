@@ -20,6 +20,15 @@
 */
 
 //CODE HERE
+class Employee {
+    constructor(name, shifts) {
+        this.name = name;
+        this.shift - shifts;
+    }
+    getSchedule() {
+        console.log(`${name} works on ${shift}`);
+    }
+}
 
 
 
@@ -34,6 +43,7 @@
 */
 
 //CODE HERE
+let empOne = new Employee("Jess", "weekday mornings, weekday afternoons")
 
 /*
     Call the `getSchedule` method on the
@@ -41,6 +51,7 @@
 */
 
 //CODE HERE
+console.log(getSchedule(empOne));
 
 
 /*
@@ -56,6 +67,7 @@
 */
 
 //CODE HERE
+let empTwo = new Employee("Nick", "weekday mornings, weekday afternoons")
 
 
 

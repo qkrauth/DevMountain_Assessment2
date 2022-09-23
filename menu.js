@@ -31,6 +31,14 @@
 */
 
 //CODE HERE
+let pizza = {
+    name: "Pizzaria",
+    price: 10,
+    category: "Food",
+    popularity: 100,
+    rating: 90,
+    tags: ["cheese", "meats", "sauce", "crust"]
+}
 
 
 
@@ -43,6 +51,7 @@
 */
 
 //CODE HERE
+console.log(pizza.popularity);
 
 
 /*
@@ -53,6 +62,7 @@
 */
 
 //CODE HERE
+console.log(pizza.tags[1]);
 
 
 /*
@@ -63,6 +73,8 @@
 */
 
 //CODE HERE
+let {price} = pizza;
+console.log(price);
 
 
 /*
@@ -73,6 +85,8 @@
 */
 
 //CODE HERE
+let {category} = pizza;
+console.log(category);
 
 
 //////////////////PROBLEM 3////////////////////
@@ -88,6 +102,43 @@
 */
 
 //CODE HERE
+let pasta = {
+    name: "Pastaria",
+    price: 15,
+    category: "Food2",
+    popularity: 85,
+    rating: 80,
+    tags: ["noodles", "beef", "basil", "garlic"]
+}
+
+let chicken = {
+    name: "Chickenria",
+    price: 20,
+    category: "Food3",
+    popularity: 75,
+    rating: 70,
+    tags: ["grilled", "fried", "roast", "seasoned"]
+}
+
+let soup = {
+    name: "Soupria",
+    price: 25,
+    category: "Food4",
+    popularity: 65,
+    rating: 60,
+    tags: ["broth", "veggies", "color", "scent"]
+}
+
+let fruit = {
+    name: "Fruitria",
+    price: 5,
+    category: "Food5",
+    popularity: 55,
+    rating: 50,
+    tags: ["red", "orange", "yellow", "green"]
+}
+
+let foodArr = [pizza, pasta, chicken, soup, fruit];
 
 
 
@@ -105,7 +156,7 @@
 
 //CODE HERE
 
-// const filteredFood = foodArr.filter(/* CALLBACK HERE */)
+const filteredFood = foodArr.filter()
 
 
 

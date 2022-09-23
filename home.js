@@ -22,6 +22,10 @@
 */
 
 //CODE HERE
+function greetUser(username) {
+    return username;
+}
+console.log("Welcome back, " + greetUser("Quinten"));
 
 
 
@@ -50,6 +54,16 @@
 const deliveryAreaZipCodes = [85205, 85204, 85203, 85213, 85206]
 
 //CODE HERE
+function canWeDeliver(zipCode) {
+    for (let i = 0; i < deliveryAreaZipCodes.length; i++) {
+        if (zipCode === deliveryAreaZipCodes[i]) {
+            return "you are in our zone";
+        } else {
+            return "you are not in our zone";
+        }
+    }
+}
+console.log(canWeDeliver(85205));
 
 
 
@@ -71,6 +85,15 @@ const deliveryAreaZipCodes = [85205, 85204, 85203, 85213, 85206]
 */
 
 // CODE HERE
+function canWeDeliverTwo(zipCode) {
+    if (deliveryAreaZipCodes.includes(zipCode)) {
+        return "you are in our zone";
+    } else {
+        return "you are not in our zone";
+    }
+}
+console.log(canWeDeliverTwo(85205));
+
 
 
 //////////////////PROBLEM 3////////////////////

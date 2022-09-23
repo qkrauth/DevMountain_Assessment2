@@ -30,6 +30,14 @@
 */
 
 //CODE HERE
+class Ticket {
+    constructor(items, orderTime, customerId) {
+      this.status = queued;
+    }
+    updateStatus(newStatus) {
+        this.status === newStatus
+    }
+}
 
 
 
