@@ -32,7 +32,9 @@
 //CODE HERE
 class Ticket {
     constructor(items, orderTime, customerId) {
-      this.status = queued;
+      this.items = items;
+      this.orderTime = orderTime;
+      this.customerId = customerId;
     }
     updateStatus(newStatus) {
         this.status === newStatus

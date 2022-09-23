@@ -23,10 +23,10 @@
 class Employee {
     constructor(name, shifts) {
         this.name = name;
-        this.shift - shifts;
+        this.shifts = shifts;
     }
     getSchedule() {
-        console.log(`${name} works on ${shift}`);
+        console.log(`${name} works on ${shifts}`);
     }
 }
 
