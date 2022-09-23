@@ -102,34 +102,36 @@ console.log(category);
 */
 
 //CODE HERE
-let pasta = {
+let foodArr = [
+
+{
     name: "Pastaria",
     price: 15,
     category: "Food2",
     popularity: 85,
     rating: 80,
     tags: ["noodles", "beef", "basil", "garlic"]
-}
+},
 
-let chicken = {
+{
     name: "Chickenria",
     price: 20,
     category: "Food3",
     popularity: 75,
     rating: 70,
     tags: ["grilled", "fried", "roast", "seasoned"]
-}
+},
 
-let soup = {
+{
     name: "Soupria",
     price: 25,
     category: "Food4",
     popularity: 65,
     rating: 60,
     tags: ["broth", "veggies", "color", "scent"]
-}
+},
 
-let fruit = {
+{
     name: "Fruitria",
     price: 5,
     category: "Food5",
@@ -137,8 +139,8 @@ let fruit = {
     rating: 50,
     tags: ["red", "orange", "yellow", "green"]
 }
+]
 
-let foodArr = [pizza, pasta, chicken, soup, fruit];
 
 
 
@@ -156,7 +158,7 @@ let foodArr = [pizza, pasta, chicken, soup, fruit];
 
 //CODE HERE
 
-const filteredFood = foodArr.filter()
+// const filteredFood = foodArr.filter()
 
 
 
@@ -200,6 +202,14 @@ const filteredFood = foodArr.filter()
 */
 
 //CODE HERE
+let filterByProperty = (property, number, type) => {
+    let filteredArray = [];
+    if (type === "above") {
+        filteredArray = foodArr.filter((object) => object[property] > number)
+    } else {}
+    return filteredArray;
+}
+console.log(filterByProperty("popularity", 70, "above"));
 
 
 /*

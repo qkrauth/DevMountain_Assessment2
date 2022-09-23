@@ -130,6 +130,13 @@ const deals = [
 */
 
 //CODE HERE
+let replace = deals[0].title.replace("15", "10")
+console.log(replace);
+
+// improved answer down below
+
+deals[0].title = deals[0].title.replace("15", "10")
+console.log(deals[0]);
 
 
 
