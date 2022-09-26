@@ -157,8 +157,13 @@ let foodArr = [
 */
 
 //CODE HERE
+let filterFunction = (certainTagCB) => {
+    let newArray = [];
+    if (foodArr.tags === ["red"]) {
+        newArray = foodArr.filter
+    }
+}   
 
-// const filteredFood = foodArr.filter()
 
 
 
@@ -209,7 +214,6 @@ let filterByProperty = (property, number, type) => {
     } else {}
     return filteredArray;
 }
-console.log(filterByProperty("popularity", 70, "above"));
 
 
 /*
@@ -220,3 +224,4 @@ console.log(filterByProperty("popularity", 70, "above"));
 */
 
 //CODE HERE
+console.log(filterByProperty("popularity", 70, "above"));

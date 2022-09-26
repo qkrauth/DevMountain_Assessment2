@@ -154,3 +154,5 @@ console.log(deals[0]);
 */
 
 //CODE HERE
+deals[1].desc = deals[1].desc.replace("March", "April");
+console.log(deals[1]);
